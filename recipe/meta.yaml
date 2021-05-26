@@ -24,6 +24,7 @@ requirements:
     - python >=3.6
     - importlib_metadata >=0.22
     - typing-extensions
+    - packaging
 
 test:
   imports:
