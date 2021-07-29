@@ -1,5 +1,5 @@
 {% set name = "vector" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vector-{{ version }}.tar.gz
-  sha256: 601b64510d84ddd0f44390e21c93d06bc08df2d88b85203379726b594d4cfa4b
+  sha256: ef97bfec0263766edbb74c290401f89921f8d11ae9e4a0ffd904ae40674f1239
 
 build:
   noarch: python
