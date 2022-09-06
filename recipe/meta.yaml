@@ -19,7 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools-scm
+    - hatchling
+    - hatch-vcs
   run:
     - numpy >=1.13.3
     - python >=3.6
@@ -44,5 +45,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - chrisburr
+    - Saransh-cpp
     - conda-forge/scikit-hep
