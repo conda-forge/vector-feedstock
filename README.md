@@ -143,6 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@chrisburr](https://github.com/chrisburr/)
+* [@Saransh-cpp](https://github.com/Saransh-cpp/)
 * [@conda-forge/scikit-hep](https://github.com/conda-forge/scikit-hep/)
 
