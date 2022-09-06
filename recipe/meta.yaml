@@ -31,7 +31,7 @@ requirements:
 test:
   imports:
     - vector
-    - vector._backends
+    - vector.backends
   commands:
     - pip check
   requires:
