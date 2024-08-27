@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@Saransh-cpp](https://github.com/Saransh-cpp/)
 * [@conda-forge/scikit-hep](https://github.com/orgs/conda-forge/teams/scikit-hep/)
 
-
-<!-- dummy commit to enable rerendering -->
-
