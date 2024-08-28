@@ -1,5 +1,5 @@
 {% set name = "vector" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vector-{{ version }}.tar.gz
-  sha256: 77e48bd40b7e7d30a17bf79bb6ed0f2d6985d915fcb9bf0879836276a619a0a9
+  sha256: 41ec731fb67ea35af2075eb3a4d6c83ef93b580dade63010821cbc00f1b98961
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - numpy >=1.13.3,<2.1
+    - numpy >=1.13.3
     - python >=3.8
     - importlib_metadata >=0.22
     - typing-extensions
