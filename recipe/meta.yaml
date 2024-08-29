@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vector-{{ version }}.tar.gz
-  sha256: 7618b8c178ea6b6e7809ec5ba9d597cd6272b576d6f8466f665818c759b990aa
+  sha256: eb0d9472f4b0907a0cf603e98a0e8b90f0ac05593f7b4d10268daa25aa38cbd9
 
 build:
   noarch: python
