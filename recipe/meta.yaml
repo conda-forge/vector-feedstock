@@ -23,7 +23,7 @@ requirements:
   run:
     - numpy >=1.13.3
     - python >=3.8
-    - importlib_metadata >=0.22
+    - importlib-metadata >=0.22
     - typing-extensions
     - packaging >=19
 
