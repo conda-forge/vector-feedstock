@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: vector
-  version: "1.6.2"
+  version: "1.6.3"
   python_min: '3.8'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/vector-${{ version }}.tar.gz
-  sha256: 6e59d9db8b615016fa542a2e8150d0c819046fe6940badd267811a454a7f0eca
+  sha256: a85149a62fcaa8a4d95214ca217f3910ea6800d79d65ef1cfb1005720b4f713a
 
 build:
   number: 0
