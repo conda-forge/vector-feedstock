@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: vector
-  version: "1.6.3"
-  python_min: '3.8'
+  version: 1.7.0
+  python_min: '3.9'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/vector-${{ version }}.tar.gz
-  sha256: a85149a62fcaa8a4d95214ca217f3910ea6800d79d65ef1cfb1005720b4f713a
+  sha256: 8b05ea2953322c74c49d2af180f7eac73ad0aa3d4c391cab896175ec4fa3d642
 
 build:
   number: 0
@@ -25,12 +25,9 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - numpy >=1.13.3
+    - numpy >=1.19.3
     - python >=${{ python_min }}
-    - importlib-metadata >=0.22
-    - typing-extensions
-    - packaging >=19
-
+    - packaging >=20
 tests:
   - python:
       imports:
